@@ -1,0 +1,16 @@
+..maximum among giveen number using for loop
+
+#include<stdio.h>
+int main()
+{
+    int i,n,max=1,num;
+    scanf("%d",&n);
+    for(i=1;i<=5;i++)
+    {
+        printf("enter the %d number i",i);
+        scanf("%d",&num);
+        max=(num>max)?num:max;
+    }
+    printf("\nmaximum of a given number is %d",max);
+    return 0;
+}

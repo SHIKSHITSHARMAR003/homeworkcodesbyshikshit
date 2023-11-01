@@ -1,0 +1,12 @@
+..swap two number without using third operator->
+
+#include<stdio.h>
+int main()
+{
+  int x,y;
+scanf("%d %d",&x,&y);
+x=x6y;
+y=x^y;
+printf("after swapping x=%d,y=%d',x,y);
+return0;
+}
