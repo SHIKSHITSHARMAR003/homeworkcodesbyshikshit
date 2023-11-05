@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    float start,end ,net,d;
+    printf("enter the initial value:");
+    scanf("%d",&start);
+    printf("enter the final value:");
+    scanf("%d",&end);
+     net= end-start;
+    if(d<100) d=d*1.5;
+    if(d>100&&d<200) d=d*2.5;
+    if(d>100&&d<500) d=d*3.5;
+    printf("total consumed units is %d so bill is %.2f",net);
+    return 0;
+
+}
