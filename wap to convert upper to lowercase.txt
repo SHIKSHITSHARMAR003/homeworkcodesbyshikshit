@@ -1,0 +1,12 @@
+// wap to convert uppercase to lowercase
+
+#include<stdio.h>
+int main()
+{
+    int uppercase,lowercase;
+    printf("enter uppercase character: ");
+    scanf("%c",&uppercase);
+    lowercase= uppercase|32;
+    printf("%c",lowercase);
+    return 0;
+}

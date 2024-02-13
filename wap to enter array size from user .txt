@@ -1,0 +1,23 @@
+// wap to enter array size from user and print sum of aarray elements
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter array size : ");
+    scanf("%d",&n);
+
+    int arr[n];
+    printf("Enter array elements ");
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+
+    int sum=0;
+    for(int i=0;i<n;i++){
+        sum=sum+arr[i];
+    }
+    printf("sum of array elements %d",sum);
+    return 0;
+
+}
